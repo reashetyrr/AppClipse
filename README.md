@@ -23,11 +23,11 @@ The quickest way to get started with appclipse is by using the CDN to include th
 <!--
   Or,
   Use the following (no variables, supports IE11):
-  <link href="https://static.appclipse.online/1.1.1/css/appclipse.min.css" rel="stylesheet" />
+  <link href="https://static.appclipse.online/1.1.2/css/appclipse.min.css" rel="stylesheet" />
 -->
 
 <!-- appclipse JS -->
-<script src="https://static.appclipse.online/1.1.1//js/appclipse.min.js"></script>
+<script src="https://static.appclipse.online/1.1.2/js/appclipse.min.js"></script>
 ```
 
 **Pleast note**, the JS file should be placed at the end of the `<body>` tag. Otherwise, some things may not work as expected. For example, using the `onclick="..."` event to call one of appclipse's built-in methods will not work **unless** the JS file is placed at the end of the `<body>` tag.
